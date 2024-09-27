@@ -21,7 +21,6 @@
     - Framework: Spring Boot
     - Database: MySQL
     - 인증: JWT (JSON Web Token)
-    - 테스트: JUnit
 - **프론트엔드**
     - 웹 (관리자): React
     - 앱 (사용자): Flutter
