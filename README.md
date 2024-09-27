@@ -1,19 +1,30 @@
 # jjoin
 
-enjoin in join
+### 주요 기능
 
-## Getting Started
+1. **사용자 앱 (Flutter)**
+    - 동아리 일정 확인
+    - 동아리 검색 및 가입 신청
+    - 마이페이지 관리 (프로필, 가입 동아리 목록 등)
+2. **관리자 웹 (React)**
+    - 동아리 관리 (회원 승인, 일정 등록)
+    - 서비스 관리자: 동아리 생성 및 삭제 권한
+    - 데이터 분석 기능 제공 (사용자 통계 등)
+3. **서버 (Spring Boot)**
+    - 사용자 인증 및 권한 관리 (JWT)
+    - REST API 제공 (동아리 관리, 회원 관리 등)
+    - 데이터베이스 연동 (MySQL)
 
-This project is a starting point for a Flutter application.
+## 기술 스택
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **백엔드**
+    - Framework: Spring Boot
+    - Database: MySQL
+    - 인증: JWT (JSON Web Token)
+    - 테스트: JUnit
+- **프론트엔드**
+    - 웹 (관리자): React
+    - 앱 (사용자): Flutter
 
 ### 1. 가입한 동아리 확인 및 이벤트 관리
 ![New-Project-Clipchamp로-제작](https://github.com/user-attachments/assets/3bb819e5-577b-4a20-8a0c-62ad502540ee)
