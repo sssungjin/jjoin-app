@@ -11,7 +11,6 @@
     - 서비스 관리자: 동아리 생성 및 삭제 권한
     - 데이터 분석 기능 제공 (사용자 통계 등)
 3. **서버 (Spring Boot)**
-    - 사용자 인증 및 권한 관리 (JWT)
     - REST API 제공 (동아리 관리, 회원 관리 등)
     - 데이터베이스 연동 (MySQL)
 
@@ -20,10 +19,11 @@
 - **백엔드**
     - Framework: Spring Boot
     - Database: MySQL
-    - 인증: JWT (JSON Web Token)
 - **프론트엔드**
-    - 웹 (관리자): React
-    - 앱 (사용자): Flutter
+    - 웹 (관리자)
+      - Framework: React
+    - 앱 (사용자)
+      - Framework: Flutter
 
 ### 1. 가입한 동아리 확인 및 이벤트 관리
 ![New-Project-Clipchamp로-제작](https://github.com/user-attachments/assets/3bb819e5-577b-4a20-8a0c-62ad502540ee)
